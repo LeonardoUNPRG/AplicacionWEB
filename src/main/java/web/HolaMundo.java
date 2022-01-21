@@ -13,6 +13,5 @@ public class HolaMundo extends HttpServlet{
         response.setContentType("text/html:charset-UTF-8");
         PrintWriter out = response.getWriter();
         out.println("Hola Mundo desde Servlets");
-        out.println("Hola nuevamente desde mi repositorio");
     }
 }
